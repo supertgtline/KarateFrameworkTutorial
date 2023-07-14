@@ -2,7 +2,7 @@ Feature: To test the delete end point
   DELETE /normal/webapi/remove/{id}
 
   Background: Create and Initialize base Url
-    Given url 'http://localhost:9898'
+    Given url 'http://localhost:9897'
 
   Scenario: To delete the job entry from application using job id
     # Create a new Job entry

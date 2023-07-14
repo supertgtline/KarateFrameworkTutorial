@@ -2,7 +2,7 @@ Feature: To test the patch end point for updating the job description
   PATCH /normal/webapi/update/details
 
   Background: Create and Initialize base Url
-    Given url 'http://localhost:9898'
+    Given url 'http://localhost:9897'
 
   @Smoke @Regression
   Scenario: To update the job description for newly added job entry

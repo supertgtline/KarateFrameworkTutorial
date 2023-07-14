@@ -2,7 +2,7 @@ Feature: To validate the GET End response from file
   To validate the get end point response from extenal file
 
   Background: Setup the base url
-    Given url 'http://localhost:9898'
+    Given url 'http://localhost:9897'
 
   Scenario: To get the data in JSON format and validate from file
     Given path '/normal/webapi/all'

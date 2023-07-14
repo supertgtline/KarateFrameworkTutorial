@@ -9,7 +9,7 @@ function fn() {
 	myVarName: 'someValue',
 	username: 'admin1',
 	password: 'welcome',
-	_url: 'http://localhost:9898',
+	_url: 'http://localhost:9897',
 		
   }
   if (env == 'dev') {
@@ -25,7 +25,7 @@ function fn() {
 	  config.username = 'stagingadmin1';
 	  config.password = 'stagingwelcome';
 	  //config._url= 'http://staging.localhost:9898';
-	  config._url= 'http://localhost:9898';
+	  config._url= 'http://localhost:9897';
   } else if (env == 'preprod') {
 	  // Initialize the config for preprod
 	  config.username = 'preprodadmin1';
